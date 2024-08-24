@@ -50,4 +50,6 @@ Obrigado por visitar meu portfólio. Fique atento para as atualizações e sinta
 - ⚡ Fun fact: ...
 fabiuniz/fabiuniz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
+https://www.youtube.com/watch?v=vw1JzSpB1Aw
+https://rahuldkjain.github.io/gh-profile-readme-generator/
 --->
