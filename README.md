@@ -28,10 +28,9 @@ Nos próximos dias, você verá atualizações com:
 
 Se você está interessado em discutir sobre oportunidades de trabalho ou colaborar em projetos, não hesite em me contatar. Estou aberto a novas oportunidades e desafios.
 
-- [Email](mailto:fabiuniz@msn.com)
-
 <p align="left">
-<a href="https://linkedin.com/in/fabiano-rocha-de-almeida-b1789022" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="fabiano-rocha-de-almeida-b1789022" height="30" width="40" /></a>
+<a href="mailto:fabiuniz@msn.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="Email" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/fabiano-rocha-de-almeida-b1789022" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
