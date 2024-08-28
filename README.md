@@ -1,5 +1,5 @@
 # Portfólio de Projetos
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub issues](https://img.shields.io/github/issues/username/repo.svg)](https://github.com/username/repo/issues) ![GitHub contributors](https://img.shields.io/github/contributors/username/repo.svg) ![HitCount](https://hits.dwyl.com/fabiuniz/fabiuniz.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub issues](https://img.shields.io/github/issues/fabiuniz/repo.svg)](https://github.com/fabiuniz/repo/issues) ![GitHub contributors](https://img.shields.io/github/contributors/fabiuniz/repo.svg) ![HitCount](http://hits.dwyl.com/fabiuniz/repo.svg)
 
 Olá e bem-vindo ao meu portfólio no GitHub!
 
@@ -44,7 +44,7 @@ Agradecemos aos nossos colaboradores por fazerem deste projeto algo melhor:
 
 ## 🐛 Reportar Problemas
 
-Se você encontrar algum problema, por favor [abra uma issue](https://github.com/yourusername/yourrepository/issues) no GitHub.
+Se você encontrar algum problema, por favor [abra uma issue](https://github.com/fabiuniz/yourrepository/issues) no GitHub.
 
 ## 📝 Licença
 
@@ -182,4 +182,6 @@ portifolio
 precificar --> cliente oculto tecnica
 Encontrar clientes
 contrato
+
+![GitHub stars](https://img.shields.io/github/stars/usuario/repositorio?style=social)
 -->
