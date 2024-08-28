@@ -1,5 +1,5 @@
 # Portfólio de Projetos
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub issues](https://img.shields.io/github/issues/username/repo.svg)](https://github.com/username/repo/issues) ![GitHub contributors](https://img.shields.io/github/contributors/username/repo.svg) ![HitCount](http://hits.dwyl.com/username/repo.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub issues](https://img.shields.io/github/issues/username/repo.svg)](https://github.com/username/repo/issues) ![GitHub contributors](https://img.shields.io/github/contributors/username/repo.svg) ![HitCount](https://hits.dwyl.com/fabiuniz/fabiuniz.svg)
 
 Olá e bem-vindo ao meu portfólio no GitHub!
 
