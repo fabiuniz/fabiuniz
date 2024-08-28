@@ -1,5 +1,5 @@
 # Portfólio de Projetos
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub issues](https://img.shields.io/github/issues/fabiuniz/repo.svg)](https://github.com/fabiuniz/repo/issues) ![GitHub contributors](https://img.shields.io/github/contributors/fabiuniz/repo.svg) ![HitCount](http://hits.dwyl.com/fabiuniz/repo.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub issues](https://img.shields.io/github/issues/fabiuniz/repo.svg)](https://github.com/fabiuniz/repo/issues) ![GitHub contributors](https://img.shields.io/github/contributors/fabiuniz/repo.svg) <img src="https://komarev.com/ghpvc/?username=fabiuniz&label=Profile%20views&color=0e75b6&style=flat" alt="fabiuniz" /> ![HitCount](http://hits.dwyl.com/fabiuniz/repo.svg)
 
 Olá e bem-vindo ao meu portfólio no GitHub!
 
@@ -68,6 +68,9 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 Obrigado por visitar meu portfólio. Fique atento para as atualizações e sinta-se à vontade para entrar em contato!
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=fabiuniz&show_icons=true&locale=en&layout=compact" alt="fabiuniz" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=fabiuniz&show_icons=true&locale=en" alt="fabiuniz" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=fabiuniz&" alt="fabiuniz" /></p>
+
 <!--
 
 - 👋 Hi, I’m @fabiuniz
@@ -194,7 +197,7 @@ https://github.com/ikatyang/emoji-cheat-sheet?tab=readme-ov-file
 FreeLancer (https://www.youtube.com/watch?v=pgFWIA4nBWA)
 Habilidade / definir serviço
 portifolio
-precificar --> cliente oculto tecnica
+precificar -> cliente oculto tecnica
 Encontrar clientes
 contrato
 
