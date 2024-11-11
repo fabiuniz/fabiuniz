@@ -26,7 +26,7 @@ Nos próximos dias, você verá atualizações com:
 
 ## Repositórios
 
-[![Development](https://github.com/fabiuniz?tab=repositories)
+[Development](https://github.com/fabiuniz?tab=repositories)
 
 ## Entre em Contato
 
