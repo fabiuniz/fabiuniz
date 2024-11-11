@@ -24,6 +24,9 @@ Nos próximos dias, você verá atualizações com:
 - **Documentação Detalhada**: Guias e descrições detalhadas dos projetos e das tecnologias usadas.
 - **Demonstrações de Habilidades**: Mostras do meu trabalho que demonstram minha capacidade técnica e resolução de problemas.
 
+## Repositórios
+
+
 ## Entre em Contato
 
 Se você está interessado em discutir sobre oportunidades de trabalho ou colaborar em projetos, não hesite em me contatar. Estou aberto a novas oportunidades e desafios.
