@@ -76,7 +76,7 @@ Obrigado por visitar meu portfólio. Fique atento para as atualizações e sinta
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fabiuniz&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 <br clear="both">
-<img src="https://raw.githubusercontent.com/fabiuniz/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/fabiuniz/fabiuniz/main/snake.svg" alt="Snake animation" />
 <div align="center">
   <img src="https://profile-counter.glitch.me/fabiuniz/count.svg?"  />
 </div>
