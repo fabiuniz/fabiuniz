@@ -6,15 +6,13 @@ Bem-vindo(a) ao meu portfólio no GitHub!
 
 Este espaço é uma amostra do meu trabalho e das minhas habilidades em tecnologias inovadoras. Estou sempre em busca de novos desafios e oportunidades para aplicar e expandir meu conhecimento.
 
----
-
 ## 🌳 Minha Árvore de Competências Tech
 
 Para uma visão clara das minhas habilidades atuais, projetos realizados e aspirações de carreira, explore minha árvore de competências interativa. Ela detalha minhas proficiências em **Fundamentos de Programação, Desenvolvimento Web, Hardware e IoT, Ciência de Dados, DevOps e Nuvem, Segurança da Informação**, além das minhas **Habilidades Transversais**.
 
-<img src="https://github.com/fabiuniz/fabiuniz/blob/main/arvore_projetos.svg" alt="Minha Árvore de Competências" />
----
+<img src="https://raw.githubusercontent.com/fabiuniz/fabiuniz/main/arvore_projetos.svg" alt="Minha Árvore de Competências" />
 
+**👉 Para explorar a árvore de competências interativa (com links clicáveis), [clique aqui para abrir em uma nova aba](https://raw.githubusercontent.com/fabiuniz/fabiuniz/main/arvore_projetos.svg).**
 
 
 ## Áreas de Experiência e Destaques
