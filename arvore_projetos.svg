@@ -1,0 +1,198 @@
+<svg width="1750" height="1100" viewBox="0 0 1750 1100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <text x="875" y="50" font-family="Arial" font-size="36" fill="#333" text-anchor="middle" font-weight="bold">Minha Árvore de Competências Tech</text>
+    <text x="875" y="90" font-family="Arial" font-size="20" fill="#666" text-anchor="middle">Projetos Atuais e Aspirações de Carreira Profissional</text>
+
+    <g transform="translate(1500, 40)">
+        <rect x="0" y="0" width="160" height="25" fill="#4CAF50" rx="4" ry="4"/>
+        <text x="80" y="17" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Projeto Realizado</text>
+        <rect x="0" y="35" width="160" height="25" fill="#FFA726" rx="4" ry="4"/>
+        <text x="80" y="52" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Foco Futuro / Aspiração</text>
+        <rect x="0" y="70" width="160" height="25" fill="#81D4FA" rx="4" ry="4"/>
+        <text x="80" y="87" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Contínuo</text>
+    </g>
+
+            <g>
+        <rect x="50" y="150" width="280" height="80" fill="#3F51B5" rx="12" ry="12"/>
+        <text x="190" y="180" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">Fundamentos</text>
+        <text x="190" y="200" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">de Programação</text>
+        <text x="190" y="220" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">e Desenvolvimento</text>
+
+        <rect x="360" y="150" width="335" height="90" fill="#4CAF50" rx="6" ry="6"/>
+        <text x="370" y="175" font-family="Arial" font-size="16" fill="white" text-anchor="start">Linguagens de Programação</text>
+        <a xlink:href="https://github.com/fabiuniz/development_environment" target="_blank">
+            <text x="390" y="195" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Python (Amb. Dev Docker)</text>
+        </a>
+        <a xlink:href="https://github.com/fabiuniz/" target="_blank">
+            <text x="390" y="210" font-family="Arial" font-size="14" fill="#333" text-anchor="start">PHP (Portfólio Geral)</text>
+        </a>
+        <a xlink:href="https://github.com/fabiuniz/bank_system" target="_blank">
+            <text x="390" y="225" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Java (bank_system)</text>
+        </a>
+
+        <rect x="360" y="250" width="335" height="75" fill="#4CAF50" rx="6" ry="6"/>
+        <text x="370" y="275" font-family="Arial" font-size="16" fill="white" text-anchor="start">Arquitetura de Software</text>
+        <text x="390" y="295" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Microsserviços (Foco Futuro)</text>
+        <a xlink:href="https://github.com/fabiuniz/dslist-rest" target="_blank">
+            <text x="390" y="310" font-family="Arial" font-size="14" fill="#333" text-anchor="start">APIs e Integrações (dslist-rest)</text>
+        </a>
+
+        <rect x="360" y="335" width="335" height="60" fill="#81D4FA" rx="6" ry="6"/>         <text x="370" y="360" font-family="Arial" font-size="16" fill="white" text-anchor="start">Lógica e Estruturas de Dados</text>
+        <text x="390" y="380" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Prática Contínua (Algoritmos, Estruturas)</text>     </g>
+
+        <g>
+        <rect x="50" y="450" width="280" height="80" fill="#3F51B5" rx="12" ry="12"/>
+        <text x="190" y="495" font-family="Arial" font-size="22" fill="white" text-anchor="middle" font-weight="bold">Desenvolvimento Web</text>
+
+        <rect x="360" y="450" width="335" height="75" fill="#4CAF50" rx="6" ry="6"/>
+        <text x="370" y="475" font-family="Arial" font-size="16" fill="white" text-anchor="start">Front-end</text>
+        <a xlink:href="https://github.com/fabiuniz/game_javascript" target="_blank">
+            <text x="390" y="495" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Jogo JS (JavaScript)</text>
+        </a>
+        <a xlink:href="https://github.com/fabiuniz/yt-transcribe-ai" target="_blank">
+            <text x="390" y="510" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Ferramenta IA p/ Vídeos (Dash)</text>
+        </a>
+
+        <rect x="360" y="535" width="335" height="80" fill="#4CAF50" rx="6" ry="6"/>
+        <text x="370" y="560" font-family="Arial" font-size="16" fill="white" text-anchor="start">Back-end</text>
+        <text x="390" y="580" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Java (bank_system)</text>
+        <text x="390" y="595" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Python (FastAPI - turnover)</text>
+        <text x="390" y="610" font-family="Arial" font-size="14" fill="#333" text-anchor="start">PHP</text>
+
+        <rect x="360" y="625" width="335" height="75" fill="#4CAF50" rx="6" ry="6"/>
+        <text x="370" y="645" font-family="Arial" font-size="16" fill="white" text-anchor="start">Bancos de Dados</text>
+        <text x="390" y="665" font-family="Arial" font-size="14" fill="#333" text-anchor="start">SQL/NoSQL (Usado em Ambientes Docker)</text>
+        <text x="390" y="680" font-family="Arial" font-size="14" fill="#333" text-anchor="start">PostgreSQL, JPA (em projetos Java)</text>
+    </g>
+
+        <g>
+        <rect x="50" y="720" width="280" height="80" fill="#009688" rx="12" ry="12"/>
+        <text x="190" y="765" font-family="Arial" font-size="22" fill="white" text-anchor="middle" font-weight="bold">Hardware e IoT</text>
+
+        <rect x="360" y="720" width="335" height="75" fill="#4CAF50" rx="6" ry="6"/>
+        <text x="370" y="745" font-family="Arial" font-size="16" fill="white" text-anchor="start">Internet das Coisas (IoT)</text>
+        <a xlink:href="https://github.com/fabiuniz/Arduino" target="_blank">
+            <text x="390" y="765" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Portfólio Geral (Arduino)</text>
+        </a>
+        <a xlink:href="https://github.com/fabiuniz/ESP01WakeUp" target="_blank">
+            <text x="390" y="780" font-family="Arial" font-size="14" fill="#333" text-anchor="start">WakeUp Arduino (Automação)</text>
+        </a>
+
+        <rect x="360" y="805" width="335" height="60" fill="#4CAF50" rx="6" ry="6"/>
+        <text x="370" y="830" font-family="Arial" font-size="16" fill="white" text-anchor="start">Hardware e Eletrônica</text>
+        <a xlink:href="https://github.com/fabiuniz/usb-midi-controller" target="_blank">
+            <text x="390" y="850" font-family="Arial" font-size="14" fill="#333" text-anchor="start">MIDI Controller (USB)</text>
+        </a>
+    </g>
+
+            <g>
+        <rect x="900" y="150" width="280" height="80" fill="#F44336" rx="12" ry="12"/>
+        <text x="1040" y="185" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">Ciência de Dados e</text>
+        <text x="1040" y="205" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">Inteligência Artificial</text>
+
+        <rect x="1210" y="150" width="335" height="75" fill="#4CAF50" rx="6" ry="6"/>
+        <text x="1220" y="175" font-family="Arial" font-size="16" fill="white" text-anchor="start">Análise e Visualização de Dados</text>
+        <a xlink:href="https://github.com/fabiuniz/turnover" target="_blank">
+            <text x="1240" y="195" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Análise Turnover (Python, Gráficos)</text>
+        </a>
+        <text x="1240" y="210" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Ferramentas de Visualização (Foco Futuro)</text>
+
+        <rect x="1210" y="235" width="335" height="90" fill="#4CAF50" rx="6" ry="6"/>
+        <text x="1220" y="260" font-family="Arial" font-size="16" fill="white" text-anchor="start">Machine Learning, Deep Learning e PNL</text>
+        <a xlink:href="https://github.com/fabiuniz/yt-transcribe-ai" target="_blank">
+            <text x="1240" y="280" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Ferramenta IA p/ Vídeos (Whisper, Gemini API)</text>
+        </a>
+        <a xlink:href="https://github.com/fabiuniz/turnover" target="_blank">
+            <text x="1240" y="295" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Análise Turnover (ML, Previsão)</text>
+        </a>
+        <text x="1240" y="310" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Deep Learning (Foco Futuro)</text>
+
+        <rect x="1210" y="345" width="335" height="60" fill="#4CAF50" rx="6" ry="6"/>
+        <text x="1220" y="370" font-family="Arial" font-size="16" fill="white" text-anchor="start">Automação</text>
+        <a xlink:href="https://github.com/fabiuniz/yt-transcribe-ai" target="_blank">
+            <text x="1240" y="390" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Ferramenta IA p/ Vídeos (Fluxos Automatizados)</text>
+        </a>
+    </g>
+
+    <g>
+        <rect x="900" y="450" width="280" height="80" fill="#673AB7" rx="12" ry="12"/>
+        <text x="1040" y="495" font-family="Arial" font-size="22" fill="white" text-anchor="middle" font-weight="bold">DevOps e Nuvem</text>
+
+        <rect x="1210" y="450" width="335" height="75" fill="#4CAF50" rx="6" ry="6"/>
+        <text x="1220" y="475" font-family="Arial" font-size="16" fill="white" text-anchor="start">Contêineres</text>
+        <a xlink:href="https://github.com/fabiuniz/Docker" target="_blank">
+            <text x="1240" y="495" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Docker Compose Dev Env</text>
+        </a>
+        <a xlink:href="https://github.com/fabiuniz/development_environment" target="_blank">
+            <text x="1240" y="510" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Amb. Dev Docker Genérico</text>
+        </a>
+
+        <rect x="1210" y="535" width="335" height="75" fill="#FFA726" rx="6" ry="6"/>
+        <text x="1220" y="560" font-family="Arial" font-size="16" fill="white" text-anchor="start">CI/CD</text>
+        <text x="1240" y="580" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Foco Futuro (Integração Contínua)</text>
+        <text x="1240" y="595" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Pipeline de Entrega Contínua (Foco Futuro)</text>
+
+        <rect x="1210" y="620" width="335" height="60" fill="#FFA726" rx="6" ry="6"/>
+        <text x="1220" y="645" font-family="Arial" font-size="16" fill="white" text-anchor="start">Infraestrutura como Código (IaC)</text>
+        <text x="1240" y="665" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Terraform/Ansible (Foco Futuro)</text>
+
+        <rect x="1210" y="690" width="335" height="60" fill="#FFA726" rx="6" ry="6"/>
+        <text x="1220" y="715" font-family="Arial" font-size="16" fill="white" text-anchor="start">Cloud Computing</text>
+        <text x="1240" y="735" font-family="Arial" font-size="14" fill="#333" text-anchor="start">AWS/Azure/GCP (Foco Futuro)</text>
+
+        <rect x="1210" y="760" width="335" height="60" fill="#FFA726" rx="6" ry="6"/>
+        <text x="1220" y="785" font-family="Arial" font-size="16" fill="white" text-anchor="start">SRE (Monitoramento e Observabilidade)</text>
+        <text x="1240" y="805" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Foco Futuro (Prometheus, Grafana)</text>
+    </g>
+
+    <g>
+        <rect x="900" y="870" width="280" height="80" fill="#E67E22" rx="12" ry="12"/>
+        <text x="1040" y="915" font-family="Arial" font-size="22" fill="white" text-anchor="middle" font-weight="bold">Segurança da Informação</text>
+
+        <rect x="1210" y="870" width="335" height="60" fill="#FFA726" rx="6" ry="6"/>
+        <text x="1220" y="895" font-family="Arial" font-size="16" fill="white" text-anchor="start">Fundamentos de Segurança</text>
+        <text x="1240" y="915" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Redes e Criptografia (Foco Futuro)</text>
+    </g>
+
+        <g>
+        <rect x="50" y="890" width="280" height="80" fill="#9C27B0" rx="12" ry="12"/>
+        <text x="190" y="925" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">Carreira e Habilidades</text>
+        <text x="190" y="945" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">Transversais</text>
+
+        <rect x="360" y="890" width="335" height="75" fill="#81D4FA" rx="6" ry="6"/>         <text x="370" y="915" font-family="Arial" font-size="16" fill="white" text-anchor="start">Inglês Técnico</text>
+        <text x="390" y="935" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Comunicação (Prática Contínua)</text>         <text x="390" y="950" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Leitura/Escrita Técnica (Prática Contínua)</text>         <rect x="360" y="975" width="335" height="60" fill="#81D4FA" rx="6" ry="6"/>         <text x="370" y="1000" font-family="Arial" font-size="16" fill="white" text-anchor="start">Soft Skills</text>
+        <text x="390" y="1020" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Resolução de Problemas (Prática Contínua)</text>     
+    </g>
+
+    <path d="M 330 190 H 345 Q 355 190 355 195 V 195 H 360" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 330 190 H 345 Q 355 190 355 287.5 V 287.5 H 360" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 330 190 H 345 Q 355 190 355 365 V 365 H 360" stroke="#ccc" stroke-width="3" fill="none"/>
+
+    <path d="M 330 490 H 345 Q 355 490 355 487.5 V 487.5 H 360" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 330 490 H 345 Q 355 490 355 575 V 575 H 360" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 330 490 H 345 Q 355 490 355 662.5 V 662.5 H 360" stroke="#ccc" stroke-width="3" fill="none"/>
+
+    <path d="M 330 760 H 345 Q 355 760 355 757.5 V 757.5 H 360" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 330 760 H 345 Q 355 760 355 835 V 835 H 360" stroke="#ccc" stroke-width="3" fill="none"/>
+
+    <path d="M 1180 190 H 1195 Q 1205 190 1205 187.5 V 187.5 H 1210" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 1180 190 H 1195 Q 1205 190 1205 280 V 280 H 1210" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 1180 190 H 1195 Q 1205 190 1205 375 V 375 H 1210" stroke="#ccc" stroke-width="3" fill="none"/>
+
+    <path d="M 1180 490 H 1195 Q 1205 490 1205 487.5 V 487.5 H 1210" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 1180 490 H 1195 Q 1205 490 1205 565 V 565 H 1210" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 1180 490 H 1195 Q 1205 490 1205 650 V 650 H 1210" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 1180 490 H 1195 Q 1205 490 1205 720 V 720 H 1210" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 1180 490 H 1195 Q 1205 490 1205 790 V 790 H 1210" stroke="#ccc" stroke-width="3" fill="none"/>
+
+    <path d="M 1180 910 H 1195 Q 1205 910 1205 890 V 890 H 1210" stroke="#ccc" stroke-width="3" fill="none"/>
+
+    <path d="M 330 930 H 345 Q 355 930 355 927.5 V 927.5 H 360" stroke="#ccc" stroke-width="3" fill="none"/>
+    <path d="M 330 930 H 345 Q 355 930 355 990 V 990 H 360" stroke="#ccc" stroke-width="3" fill="none"/>
+
+    <path d="M 1040 230 V 450" stroke="#aaa" stroke-width="2" fill="none"/>
+    <path d="M 1040 530 V 870" stroke="#aaa" stroke-width="2" fill="none"/>
+    <path d="M 190 230 V 450" stroke="#aaa" stroke-width="2" fill="none"/>
+    <path d="M 190 530 V 720" stroke="#aaa" stroke-width="2" fill="none"/>
+    <path d="M 190 800 V 890" stroke="#aaa" stroke-width="2" fill="none"/>
+
+</svg>

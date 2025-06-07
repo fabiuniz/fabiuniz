@@ -1,44 +1,53 @@
-# Portfólio de Projetos
+# Olá, sou o Fabiano Rocha! 👋
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub issues](https://img.shields.io/github/issues/fabiuniz/repo.svg)](https://github.com/fabiuniz/repo/issues) ![GitHub contributors](https://img.shields.io/github/contributors/fabiuniz/repo.svg) <img src="https://komarev.com/ghpvc/?username=fabiuniz&label=Profile%20views&color=0e75b6&style=flat" alt="fabiuniz" />
 
-Olá e bem-vindo ao meu portfólio no GitHub!
+Bem-vindo(a) ao meu portfólio no GitHub!
 
-Este repositório é uma amostra do meu trabalho e das minhas habilidades em tecnologias inovadoras. Estou constantemente trabalhando em novos projetos e em breve você encontrará uma variedade de conteúdos que demonstram minha experiência e conhecimento nas seguintes áreas:
+Este espaço é uma amostra do meu trabalho e das minhas habilidades em tecnologias inovadoras. Estou sempre em busca de novos desafios e oportunidades para aplicar e expandir meu conhecimento.
 
-- **Python**: Scripts e aplicações práticas que mostram a versatilidade e o poder de Python para resolver problemas complexos e desenvolver soluções eficientes.
-- **Docker**: Projetos que ilustram como configurar e gerenciar ambientes de desenvolvimento e produção com Docker, garantindo uma integração contínua e implantação eficiente.
-- **PHP**: Exemplos de desenvolvimento web com PHP, demonstrando minha capacidade de criar soluções backend robustas e escaláveis.
-- **Arduino**: Inovações e projetos de hardware com Arduino, mostrando minhas habilidades em eletrônica e desenvolvimento de sistemas embarcados.
+---
+
+## 🌳 Minha Árvore de Competências Tech
+
+Para uma visão clara das minhas habilidades atuais, projetos realizados e aspirações de carreira, explore minha árvore de competências interativa. Ela detalha minhas proficiências em **Fundamentos de Programação, Desenvolvimento Web, Hardware e IoT, Ciência de Dados, DevOps e Nuvem, Segurança da Informação**, além das minhas **Habilidades Transversais**.
+
+![Minha Árvore de Competências](arvore_projetos.svg)
+
+---
+
+## Áreas de Experiência e Destaques
+
+Meus projetos refletem experiência prática e conhecimento aprofundado nas seguintes áreas:
+
+-   **Python**: Scripts e aplicações práticas que mostram a versatilidade e o poder de Python para resolver problemas complexos e desenvolver soluções eficientes (ex: `turnover`, `yt-transcribe-ai`).
+-   **Docker**: Configuração e gerenciamento de ambientes de desenvolvimento e produção com Docker, garantindo uma integração contínua e implantação eficiente (`development_environment`).
+-   **PHP**: Desenvolvimento web com PHP, demonstrando minha capacidade de criar soluções backend robustas e escaláveis.
+-   **Java**: Projetos como `bank_system` que evidenciam habilidades em programação orientada a objetos, APIs e persistência de dados com JPA.
+-   **Arduino & IoT**: Inovações e projetos de hardware com Arduino, mostrando minhas habilidades em eletrônica e desenvolvimento de sistemas embarcados (`Arduino`, `ESP01WakeUp`, `usb-midi-controller`).
+-   **Ciência de Dados & IA**: Aplicação de Machine Learning e processamento de linguagem natural com foco em automação e análise de dados (ex: `yt-transcribe-ai` com Whisper e Gemini API, `turnover` para análise preditiva).
 
 ## Por que você deve me considerar?
 
-- **Experiência Prática**: Cada projeto reflete minhas habilidades práticas e conhecimentos aplicados em tecnologias atuais.
-- **Comprometimento com a Qualidade**: Foco na criação de soluções bem estruturadas e documentadas.
-- **Inovação e Criatividade**: Abordagens criativas e soluções inovadoras para desafios técnicos.
+-   **Experiência Prática e Projetos Reais**: Cada projeto linkado em minha árvore e listado abaixo reflete minhas habilidades práticas e conhecimentos aplicados em tecnologias atuais.
+-   **Comprometimento com a Qualidade**: Foco na criação de soluções bem estruturadas, eficientes e documentadas.
+-   **Inovação e Criatividade**: Abordagens criativas e soluções inovadoras para desafios técnicos complexos.
+-   **Visão de Futuro**: Demonstro proatividade em aprender e me aprofundar em tecnologias emergentes e demandadas pelo mercado (ex: Microsserviços, CI/CD, Cloud Computing, IaC, SRE).
 
 ## O que está por vir
 
-Nos próximos dias, você verá atualizações com:
+Estou constantemente atualizando meu portfólio. Nos próximos dias/semaniras, você verá atualizações com:
 
-- **Projetos Reais**: Exemplos de projetos reais que desenvolvi usando Python, Docker, PHP e Arduino.
-- **Documentação Detalhada**: Guias e descrições detalhadas dos projetos e das tecnologias usadas.
-- **Demonstrações de Habilidades**: Mostras do meu trabalho que demonstram minha capacidade técnica e resolução de problemas.
+-   **Mais Detalhes de Projetos**: Guias e descrições ainda mais detalhadas dos projetos e das tecnologias usadas.
+-   **Avanço em Focos Futuros**: Implementações e exemplos práticos das minhas áreas de aspiração (DevOps, Cloud, Segurança).
+-   **Novas Demonstrações de Habilidades**: Adição de novos projetos que demonstrem minha capacidade técnica e resolução de problemas em diferentes contextos.
 
-## Repositórios
+## Repositórios em Destaque e Habilidades Técnicas
 
-[Development](https://github.com/fabiuniz?tab=repositories)
+Acesse todos os meus repositórios para mais detalhes: [Fabiano's GitHub Repositories](https://github.com/fabiuniz?tab=repositories)
 
-## Entre em Contato
-
-Se você está interessado em discutir sobre oportunidades de trabalho ou colaborar em projetos, não hesite em me contatar. Estou aberto a novas oportunidades e desafios.
-
+<h3 align="left">Linguagens e Ferramentas:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/fabiano-rocha-de-almeida-b1789022" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="fabiano-rocha-de-almeida-b1789022" height="30" width="40" /></a>
-<a href="mailto:fabiuniz@msn.com" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mail_%28iOS%29.svg/1200px-Mail_%28iOS%29.svg.png" alt="Email" height="30" width="40"/></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
 	<a href="https://developer.android.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/></a>
 	<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
 	<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
@@ -50,11 +59,39 @@ Se você está interessado em discutir sobre oportunidades de trabalho ou colabo
 	<a href="https://www.php.net" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/></a>
 	<a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
 	<a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/></a>
-	<a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/></a> 
+	<a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/></a>
 	<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a> 	
-        <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  /></a> 	
-        <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  /></a> 	
+    <a href="https://www.java.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo" /></a>
+    <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo" /></a>
+</p>
 
+---
+
+## 📬 Entre em Contato
+
+Estou aberto a novas oportunidades e desafios. Se você está interessado em discutir sobre vagas, colaborar em projetos ou apenas trocar ideias, não hesite em me contatar.
+
+<p align="left">
+<a href="https://linkedin.com/in/fabiano-rocha-de-almeida-b1789022" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="fabiano-rocha-de-almeida-b1789022" height="30" width="40" /></a>
+<a href="mailto:fabiuniz@msn.com" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mail_%28iOS%29.svg/1200px-Mail_%28iOS%29.svg.png" alt="Email" height="30" width="40"/></a>
+</p>
+
+---
+
+## 📊 Estatísticas do GitHub
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fabiuniz&theme=dracula&locale=pt-br&hide_border=false" height="150"" alt="fabiuniz" />
+  <img src="https://github-readme-stats.vercel.app/api?username=fabiuniz&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=pt-br&hide_border=false" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fabiuniz&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=dracula&hide_border=false" height="150" alt="languages graph" />
+</div>
+<br clear="both">
+<img src="https://raw.githubusercontent.com/fabiuniz/fabiuniz/main/snake.svg" alt="Snake animation" />
+<div align="center">
+  <img src="https://profile-counter.glitch.me/fabiuniz/count.svg?" />
+</div>
+
+---
 
 ## 👥 Colaboradores
 
@@ -70,18 +107,9 @@ Se você encontrar algum problema, por favor [abra uma issue](https://github.com
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
-Obrigado por visitar meu portfólio. Fique atento para as atualizações e sinta-se à vontade para entrar em contato!
+---
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fabiuniz&theme=dracula&locale=pt-br&hide_border=false" height="150"" alt="fabiuniz" />
-  <img src="https://github-readme-stats.vercel.app/api?username=fabiuniz&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=pt-br&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fabiuniz&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
-<br clear="both">
-<img src="https://raw.githubusercontent.com/fabiuniz/fabiuniz/main/snake.svg" alt="Snake animation" />
-<div align="center">
-  <img src="https://profile-counter.glitch.me/fabiuniz/count.svg?"  />
-</div>
+Obrigado por visitar meu portfólio. Fique atento para as atualizações e sinta-se à vontade para entrar em contato!
 <!--
 
 - 👋 Hi, I’m @fabiuniz
