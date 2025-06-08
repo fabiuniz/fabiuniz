@@ -6,24 +6,187 @@
     <title>Minha Árvore de Competências Interativa</title>
     <style>
         body {
-            margin: 0;
+            background-color: #4f4f4f;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             min-height: 100vh;
-            background-color: #f0f0f0;
+            margin: 0;
+            overflow: auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
         }
-        svg {
-            max-width: 90%;
-            height: auto;
+
+        object {
+            width: 100%;
+            height: 100%;
+            max-width: 1600px;
+            max-height: 1200px;
             display: block;
+            margin: 0 auto;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow-y: auto;
+            overflow-x: hidden;           
+            padding: 20px;
+            box-sizing: border-box;
+        }
+       
+        @media (max-width: 768px) {
+            object {
+                width: auto;
+                height: 95vh;
+            }
+            body {
+                align-items: flex-start;
+                padding: 10px 0;
+            }
         }
     </style>
 </head>
 <body>
-    <object data="arvore_projetos.svg" type="image/svg+xml" style="max-width: 90%; height: auto; display: block;">
-        <img src="arvore_projetos.svg" alt="Minha Árvore de Competências" />
-    </object>
+    <object id="mySvgObject" data="arvore_projetos.svg" type="image/svg+xml"></object>
+    <script>
+        const linksDataFigma = [
+            { path: "path_M888106101467V100449H922509C9304971004499370261004", label: "Python (Amb. Dev Docker)", url: "https://github.com/fabiuniz/script_docker" },
+            { path: "path_M162828103002V101984H163172C1632521019841633171019", label: "PHP (Portfólio Geral)", url: "https://github.com/fabiuniz" },
+            { path: "path_M927083104512H939413V10524C93941310530593822105369", label: "Java (bank_system)", url: "https://github.com/fabiuniz/bank_system" },
+            { path: "path_M892282117043H879356L916742116025H92947L9668561170", label: "APIs e Integrações (dslist-rest)", url: "https://github.com/fabiuniz/dslist-rest" },
+            { path: "path_M624295156982H625528V15771C62552815777562540915783", label: "Jogo JS (JavaScript)", url: "https://github.com/fabiuniz/game_javascript" },
+            { path: "path_M159077525222V51504H159688V516134H159201V519574H15", label: "Ferramenta IA p/ Vídeos (Dash)", url: "https://github.com/fabiuniz/yt-transcribe-ai" },    
+            { path: "path_M162828113323H162975L163321114169H163333L163679113", label: "MIDI Controller (USB)", url: "https://github.com/fabiuniz/Midi_Arduino" },
+            { path: "path_M159119545233H15899L159364535051H159491L1598655452", label: "Análise Turnover (Python, Gráficos)", url: "https://github.com/fabiuniz/turnover" },
+            { path: "path_M159077525222V51504H159688V516134H159201V519574H15", label: "Ferramenta IA p/ Vídeos (Whisper, Gemini API)", url: "https://github.com/fabiuniz/yt-transcribe-ai" },
+            { path: "path_M159119411828H15899L159364401646H159491L1598654118", label: "Análise Turnover (ML, Previsão)", url: "https://github.com/fabiuniz/turnover" },
+            { path: "path_M159077671967V661786H159688V662879H159201V66632H15", label: "Ferramenta IA p/ Vídeos (Fluxos Automatizados)", url: "https://github.com/fabiuniz/yt-transcribe-ai" },
+            { path: "path_M154238146943H154109L154483145925H15461L1549841469", label: "Amb. Dev Docker Genérico", url: "https://github.com/fabiuniz/script_docker" },
+            { path: "path_M62039817134V170322H623838C62463717032262529170337", label: "Python (FastAPI - turnover", url: "https://github.com/fabiuniz/turnover" },        
+        ];        
 
-    </body>
+        function assignIdsAndLinksToSvgElements() {
+            const svgObject = document.getElementById('mySvgObject');
+            svgObject.addEventListener('load', function() {
+                const svgDoc = svgObject.contentDocument;
+                if (!svgDoc) {
+                    console.error("Não foi possível acessar o conteúdo do SVG. Certifique-se de que o SVG está no mesmo domínio (Same-Origin Policy).");
+                    return;
+                }               
+                const style = svgDoc.createElementNS("http://www.w3.org/2000/svg", "style");
+                style.textContent = `
+                    .interactive-node {
+                        cursor: pointer;
+                        transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out, stroke-width 0.3s ease-in-out;
+                        fill: #0903f182;
+                        /*stroke: #0903f182;*/
+                    }
+                    .clickable-overlay {
+                        cursor: pointer; 
+                       
+                    }                   
+                    .interactive-node-hover, .interactive-node:hover {
+                        fill: #FFA500;
+                        stroke: #FF8C00;
+                        stroke-width: 2.5px;
+                    }
+                   
+                    text {
+                        user-select: none;
+                        pointer-events: none;
+                        font-size: 20px; 
+                        fill: #333; 
+                    }
+                `;
+                const svgRoot = svgDoc.documentElement;
+                if (svgRoot) {
+                    svgRoot.insertBefore(style, svgRoot.firstChild);
+                }
+                const potentialNodes = Array.from(svgDoc.querySelectorAll('path'));
+                const interactiveNodes = [];
+                potentialNodes.forEach(element => {
+                    const fill = element.getAttribute('fill');                   
+                    //if (fill === 'white' || fill === '#DBDBDB') {
+                    if (fill === 'black') {
+                        interactiveNodes.push(element);
+                    }
+                });
+                let idCounter = 0;
+                interactiveNodes.forEach((currentSvgElement) => {
+                    let generatedId = currentSvgElement.id;
+                    if (!generatedId) {
+                        if (currentSvgElement.tagName === 'path') {
+                            const dAttribute = currentSvgElement.getAttribute('d');                           
+                            generatedId = `path_${dAttribute.replace(/[^a-zA-Z0-9_]/g, '').substring(0, 50)}`;
+                        } else if (currentSvgElement.tagName === 'ellipse' || currentSvgElement.tagName === 'circle') {
+                            const cx = currentSvgElement.getAttribute('cx');
+                            const cy = currentSvgElement.getAttribute('cy');
+                            const safeCx = cx ? cx.replace('.', '_') : '0';
+                            const safeCy = cy ? cy.replace('.', '_') : '0';
+                            generatedId = `${currentSvgElement.tagName}_${safeCx}_${safeCy}`;
+                        }
+                        let tempId = generatedId;
+                        let uniqueAttempt = 0;
+                        while(svgDoc.getElementById(tempId) && svgDoc.getElementById(tempId) !== currentSvgElement) {
+                            tempId = `${generatedId}_${uniqueAttempt++}`;
+                        }
+                        generatedId = tempId;
+                        /*console.log(`Generated ID: ${generatedId}`);*/
+                       
+                        currentSvgElement.id = generatedId;
+                    }
+                    idCounter++;
+                });
+                addLinksToSvg(svgDoc, interactiveNodes.length, linksDataFigma);
+                /*console.log(`\n--- Resumo de Atribuição de Links ---`);*/
+                /*console.log(`Total de elementos interativos ("nós") encontrados no SVG: ${interactiveNodes.length}`);*/
+                /*console.log(`Total de links no linksDataFigma: ${linksDataFigma.length}`);*/
+            });
+
+        }
+
+        function addLinksToSvg(svgDoc, totalInteractiveNodes, linksToAssign) {
+            /*console.log(`\n--- Atribuindo Links ---`);*/
+            let linksAssignedCount = 0;
+            linksToAssign.forEach(link => {
+                const targetElement = svgDoc.getElementById(link.path);
+                if (targetElement) {                   
+                    const clickableArea = targetElement.cloneNode(true);
+                    clickableArea.removeAttribute('id');
+                    clickableArea.setAttribute('fill', 'rgba(0,0,0,0)');
+                    clickableArea.setAttribute('stroke', 'rgba(0,0,0,0)');
+                    clickableArea.setAttribute('pointer-events', 'all');                   
+                    if (clickableArea.tagName === 'path') {                       
+                        clickableArea.setAttribute('stroke-width', '10');
+                        clickableArea.setAttribute('stroke-linejoin', 'round');
+                        clickableArea.setAttribute('stroke-linecap', 'round');
+                    } else if (clickableArea.tagName === 'circle' || clickableArea.tagName === 'ellipse') {                       
+                        clickableArea.setAttribute('stroke-width', '10');
+                        clickableArea.setAttribute('stroke-linejoin', 'round');
+                        clickableArea.setAttribute('stroke-linecap', 'round');
+                    }                                       
+                    targetElement.parentNode.insertBefore(clickableArea, targetElement.nextSibling);              
+                    const svgTitleElement = svgDoc.createElementNS("http://www.w3.org/2000/svg", "title");
+                    svgTitleElement.textContent = link.label;
+                    targetElement.appendChild(svgTitleElement);                   
+                    clickableArea.addEventListener('click', function() {
+                        window.open(link.url, '_blank');
+                    });                   
+                    clickableArea.addEventListener('mouseenter', () => {
+                        targetElement.classList.add('interactive-node-hover');
+                    });
+                    clickableArea.addEventListener('mouseleave', () => {
+                        targetElement.classList.remove('interactive-node-hover');
+                    });                    
+                    targetElement.classList.add('interactive-node');
+                    clickableArea.classList.add('clickable-overlay');
+                    linksAssignedCount++;
+                } else {
+                    console.warn(`Elemento com ID "${link.path}" não encontrado no SVG para o link "${link.label}".`);
+                }
+            });
+            /*console.log(`Total de links atribuídos: ${linksAssignedCount}`);*/
+        }
+        document.addEventListener('DOMContentLoaded', assignIdsAndLinksToSvgElements);
+    </script>
+</body>
 </html>
