@@ -49,147 +49,217 @@
 <body>
     <object id="mySvgObject" data="arvore_projetos.svg" type="image/svg+xml"></object>
     <script>
-        const linksDataFigma = [
-            { path: "path_M888106101467V100449H922509C9304971004499370261004", label: "Python (Amb. Dev Docker)", url: "https://github.com/fabiuniz/script_docker" },
-            { path: "path_M162828103002V101984H163172C1632521019841633171019", label: "PHP (Portfólio Geral)", url: "https://github.com/fabiuniz" },
-            { path: "path_M927083104512H939413V10524C93941310530593822105369", label: "Java (bank_system)", url: "https://github.com/fabiuniz/bank_system" },
-            { path: "path_M892282117043H879356L916742116025H92947L9668561170", label: "APIs e Integrações (dslist-rest)", url: "https://github.com/fabiuniz/dslist-rest" },
-            { path: "path_M624295156982H625528V15771C62552815777562540915783", label: "Jogo JS (JavaScript)", url: "https://github.com/fabiuniz/game_javascript" },
-            { path: "path_M159077525222V51504H159688V516134H159201V519574H15", label: "Ferramenta IA p/ Vídeos (Dash)", url: "https://github.com/fabiuniz/yt-transcribe-ai" },    
-            { path: "path_M162828113323H162975L163321114169H163333L163679113", label: "MIDI Controller (USB)", url: "https://github.com/fabiuniz/Midi_Arduino" },
-            { path: "path_M159119545233H15899L159364535051H159491L1598655452", label: "Análise Turnover (Python, Gráficos)", url: "https://github.com/fabiuniz/turnover" },
-            { path: "path_M159077525222V51504H159688V516134H159201V519574H15", label: "Ferramenta IA p/ Vídeos (Whisper, Gemini API)", url: "https://github.com/fabiuniz/yt-transcribe-ai" },
-            { path: "path_M159119411828H15899L159364401646H159491L1598654118", label: "Análise Turnover (ML, Previsão)", url: "https://github.com/fabiuniz/turnover" },
-            { path: "path_M159077671967V661786H159688V662879H159201V66632H15", label: "Ferramenta IA p/ Vídeos (Fluxos Automatizados)", url: "https://github.com/fabiuniz/yt-transcribe-ai" },
-            { path: "path_M154238146943H154109L154483145925H15461L1549841469", label: "Amb. Dev Docker Genérico", url: "https://github.com/fabiuniz/script_docker" },
-            { path: "path_M62039817134V170322H623838C62463717032262529170337", label: "Python (FastAPI - turnover", url: "https://github.com/fabiuniz/turnover" },       
-            { path: "path_M22329159334V158316H226731C22752915831622818215833", label: "PostgreSQL, JPA (em projetos Java)", url: "https://github.com/fabiuniz/dslist-rest" },       
-            
-        ];        
+        //path_M345577370333V358696H352555V359946H346986V363878H3 Seguranca
+        //path_M188056579603V591239H186647V579603H188056ZM1920458 ingles
+        //path_M19301695906C19294269533192666694883192181694565C1 skils
+        //path_M157097383479H15695L157377371842H157522L1579538347 analise de dados
+        //path_M15705485237H157218L157613494896H157627L1580224852 machine elairne
+        //path_M157097643618H15695L157377631982H157522L1579564361 automação
+        //path_M677253985872V974235H691343V984622H745434V985872H6 linguagens
+        //path_M682025112132H667253L70998110968H724525L7672531121 aequitetura de software
+        //path_M677253123645V122481H691343V12352H745434V123645H67 logica e extrutura de dados
+        //path_M160861990036V100167H16072V990036H160861ZM16125999 internet das coisas
+        //path_M16072111507V110343H160861V110861H161481V110343H16 Hardware e eletronica
+        //path_M153024141307H152883C15287514126615286141231152841 containers
+        //path_M11306414149H112923C112915141449112914141411287914 ci/cd
+        //path_M112268152466V153629H112127V152466H112268ZM1126671 infra iac
+        //path_M113064162168H112923C11291516212711291620921128791 Cloud compu
+        //path_M112764171433C112757171376112729171331112681171299 SRE
+        //path_M600312166504V165341H60438C60519116534160585916535 backend
+        //path_M600312155165V154001H607289V154126H601721V15452H60 frontend
+        //path_M203205154498V153334H207273C2080841533342087521533 Banco de dados
+    const linksDataFigma = [
+        { path: "path_M677253985872V974235H691343V984622H745434V985872H6", label: "Python (Amb. Dev Docker)", url: "https://github.com/fabiuniz/script_docker" },
+        { path: "path_M19301695906C19294269533192666694883192181694565C1", label: "PHP (Portfólio Geral)", url: "https://github.com/fabiuniz" },
+        { path: "path_M677253985872V974235H691343V984622H745434V985872H6", label: "Java (bank_system)", url: "https://github.com/fabiuniz/bank_system" },
+        { path: "path_M682025112132H667253L70998110968H724525L7672531121", label: "APIs e Integrações (dslist-rest)", url: "https://github.com/fabiuniz/dslist-rest" },
+        { path: "path_M600312155165V154001H607289V154126H601721V15452H60", label: "Jogo JS (JavaScript)", url: "https://github.com/fabiuniz/game_javascript" },
+        { path: "path_M160861990036V100167H16072V990036H160861ZM16125999", label: "Ferramenta IA p/ Vídeos (Dash)", url: "https://github.com/fabiuniz/yt-transcribe-ai" },    
+        { path: "path_M16072111507V110343H160861V110861H161481V110343H16", label: "MIDI Controller (USB)", url: "https://github.com/fabiuniz/Midi_Arduino" },
+        { path: "path_M157097383479H15695L157377371842H157522L1579538347", label: "Análise Turnover (Python, Gráficos)", url: "https://github.com/fabiuniz/turnover" },
+        { path: "path_M15705485237H157218L157613494896H157627L1580224852", label: "Ferramenta IA p/ Vídeos (Whisper, Gemini API)", url: "https://github.com/fabiuniz/yt-transcribe-ai" },
+        { path: "path_M15705485237H157218L157613494896H157627L1580224852", label: "Análise Turnover (ML, Previsão)", url: "https://github.com/fabiuniz/turnover" },
+        { path: "path_M157097643618H15695L157377631982H157522L1579564361", label: "Ferramenta IA p/ Vídeos (Fluxos Automatizados)", url: "https://github.com/fabiuniz/yt-transcribe-ai" },
+        { path: "path_M153024141307H152883C15287514126615286141231152841", label: "Amb. Dev Docker Genérico", url: "https://github.com/fabiuniz/script_docker" },
+        { path: "path_M600312166504V165341H60438C60519116534160585916535", label: "Python (FastAPI - turnover", url: "https://github.com/fabiuniz/turnover" },      
+        { path: "path_M203205154498V153334H207273C2080841533342087521533", label: "PostgreSQL, JPA (em projetos Java)", url: "https://github.com/fabiuniz/dslist-rest" },      
+    ];        
 
-        function assignIdsAndLinksToSvgElements() {
-            const svgObject = document.getElementById('mySvgObject');
-            svgObject.addEventListener('load', function() {
-                const svgDoc = svgObject.contentDocument;
-                if (!svgDoc) {
-                    console.error("Não foi possível acessar o conteúdo do SVG. Certifique-se de que o SVG está no mesmo domínio (Same-Origin Policy).");
-                    return;
-                }               
-                const style = svgDoc.createElementNS("http://www.w3.org/2000/svg", "style");
-                style.textContent = `
-                    .interactive-node {
-                        cursor: pointer;
-                        transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out, stroke-width 0.3s ease-in-out;
-                        fill: #0903f182;
-                        /*stroke: #0903f182;*/
-                    }
-                    .clickable-overlay {
-                        cursor: pointer; 
-                       
-                    }                   
-                    .interactive-node-hover, .interactive-node:hover {
-                        fill: #FFA500;
-                        stroke: #FF8C00;
-                        stroke-width: 2.5px;
-                    }
-                   
-                    text {
-                        user-select: none;
-                        pointer-events: none;
-                        font-size: 20px; 
-                        fill: #333; 
-                    }
-                `;
-                const svgRoot = svgDoc.documentElement;
-                if (svgRoot) {
-                    svgRoot.insertBefore(style, svgRoot.firstChild);
+    function assignIdsAndLinksToSvgElements() {
+        const svgObject = document.getElementById('mySvgObject');
+        svgObject.addEventListener('load', function() {
+            const svgDoc = svgObject.contentDocument;
+            if (!svgDoc) {
+                console.error("Não foi possível acessar o conteúdo do SVG. Certifique-se de que o SVG está no mesmo domínio (Same-Origin Policy).");
+                return;
+            }                
+            const style = svgDoc.createElementNS("http://www.w3.org/2000/svg", "style");
+            style.textContent = `
+                .interactive-node {
+                    cursor: pointer;
+                    /*transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out, stroke-width 0.3s ease-in-out;*/
+                    /*fill: #0903f182;*/
+                    /*stroke: #0903f182*/;
                 }
-                const potentialNodes = Array.from(svgDoc.querySelectorAll('path'));
-                const interactiveNodes = [];
-                potentialNodes.forEach(element => {
-                    const fill = element.getAttribute('fill');                   
-                    //if (fill === 'white' || fill === '#DBDBDB') {
-                    if (fill === 'black') {
-                        interactiveNodes.push(element);
-                    }
-                });
-                let idCounter = 0;
-                interactiveNodes.forEach((currentSvgElement) => {
-                    let generatedId = currentSvgElement.id;
-                    if (!generatedId) {
-                        if (currentSvgElement.tagName === 'path') {
-                            const dAttribute = currentSvgElement.getAttribute('d');                           
-                            generatedId = `path_${dAttribute.replace(/[^a-zA-Z0-9_]/g, '').substring(0, 50)}`;
-                        } else if (currentSvgElement.tagName === 'ellipse' || currentSvgElement.tagName === 'circle') {
-                            const cx = currentSvgElement.getAttribute('cx');
-                            const cy = currentSvgElement.getAttribute('cy');
-                            const safeCx = cx ? cx.replace('.', '_') : '0';
-                            const safeCy = cy ? cy.replace('.', '_') : '0';
-                            generatedId = `${currentSvgElement.tagName}_${safeCx}_${safeCy}`;
-                        }
-                        let tempId = generatedId;
-                        let uniqueAttempt = 0;
-                        while(svgDoc.getElementById(tempId) && svgDoc.getElementById(tempId) !== currentSvgElement) {
-                            tempId = `${generatedId}_${uniqueAttempt++}`;
-                        }
-                        generatedId = tempId;
-                        /*console.log(`Generated ID: ${generatedId}`);*/
-                       
-                        currentSvgElement.id = generatedId;
-                    }
-                    idCounter++;
-                });
-                addLinksToSvg(svgDoc, interactiveNodes.length, linksDataFigma);
-                /*console.log(`\n--- Resumo de Atribuição de Links ---`);*/
-                /*console.log(`Total de elementos interativos ("nós") encontrados no SVG: ${interactiveNodes.length}`);*/
-                /*console.log(`Total de links no linksDataFigma: ${linksDataFigma.length}`);*/
-            });
-
-        }
-
-        function addLinksToSvg(svgDoc, totalInteractiveNodes, linksToAssign) {
-            /*console.log(`\n--- Atribuindo Links ---`);*/
-            let linksAssignedCount = 0;
-            linksToAssign.forEach(link => {
-                const targetElement = svgDoc.getElementById(link.path);
-                if (targetElement) {                   
-                    const clickableArea = targetElement.cloneNode(true);
-                    clickableArea.removeAttribute('id');
-                    clickableArea.setAttribute('fill', 'rgba(0,0,0,0)');
-                    clickableArea.setAttribute('stroke', 'rgba(0,0,0,0)');
-                    clickableArea.setAttribute('pointer-events', 'all');                   
-                    if (clickableArea.tagName === 'path') {                       
-                        clickableArea.setAttribute('stroke-width', '10');
-                        clickableArea.setAttribute('stroke-linejoin', 'round');
-                        clickableArea.setAttribute('stroke-linecap', 'round');
-                    } else if (clickableArea.tagName === 'circle' || clickableArea.tagName === 'ellipse') {                       
-                        clickableArea.setAttribute('stroke-width', '10');
-                        clickableArea.setAttribute('stroke-linejoin', 'round');
-                        clickableArea.setAttribute('stroke-linecap', 'round');
-                    }                                       
-                    targetElement.parentNode.insertBefore(clickableArea, targetElement.nextSibling);              
-                    const svgTitleElement = svgDoc.createElementNS("http://www.w3.org/2000/svg", "title");
-                    svgTitleElement.textContent = link.label;
-                    targetElement.appendChild(svgTitleElement);                   
-                    clickableArea.addEventListener('click', function() {
-                        window.open(link.url, '_blank');
-                    });                   
-                    clickableArea.addEventListener('mouseenter', () => {
-                        targetElement.classList.add('interactive-node-hover');
-                    });
-                    clickableArea.addEventListener('mouseleave', () => {
-                        targetElement.classList.remove('interactive-node-hover');
-                    });                    
-                    targetElement.classList.add('interactive-node');
-                    clickableArea.classList.add('clickable-overlay');
-                    linksAssignedCount++;
-                } else {
-                    console.warn(`Elemento com ID "${link.path}" não encontrado no SVG para o link "${link.label}".`);
+                .clickable-overlay {
+                    cursor: pointer;    
+                }                    
+                .interactive-node-hover, .interactive-node:hover {
+                    /*fill: #FFA500;*/
+                    /*stroke: #FF8C00;*/
+                    /*stroke-width: 2.5px;*/
+                }
+                
+                text {
+                    user-select: none;
+                    pointer-events: none;
+                    /*font-size: 20px;    */
+                    /*fill: #333; */
+                }
+                .link-span {
+                    cursor: pointer;
+                    display: block; /* Garante que o span ocupe toda a largura disponível */
+                    /*text-align: center;*/
+                    /*margin-top: 5px; /* Espaçamento entre o SVG e o link */
+                    font-size: 16px;
+                    color: #007bff;
+                    font-family: Cursive;
+                    text-decoration: underline;
+                }
+                .link-span:hover {
+                    color: #0056b3;
+                }
+            `;
+            const svgRoot = svgDoc.documentElement;
+            if (svgRoot) {
+                svgRoot.insertBefore(style, svgRoot.firstChild);
+            }
+            const potentialNodes = Array.from(svgDoc.querySelectorAll('path'));
+            const interactiveNodes = [];
+            potentialNodes.forEach(element => {
+                const fill = element.getAttribute('fill');                    
+                //if (fill === 'white' || fill === '#DBDBDB') {
+                if (fill === 'white') {
+                    interactiveNodes.push(element);
                 }
             });
-            /*console.log(`Total de links atribuídos: ${linksAssignedCount}`);*/
-        }
-        document.addEventListener('DOMContentLoaded', assignIdsAndLinksToSvgElements);
-    </script>
+            let idCounter = 0;
+            interactiveNodes.forEach((currentSvgElement) => {
+                let generatedId = currentSvgElement.id;
+                if (!generatedId) {
+                    if (currentSvgElement.tagName === 'path') {
+                        const dAttribute = currentSvgElement.getAttribute('d');                         
+                        generatedId = `path_${dAttribute.replace(/[^a-zA-Z0-9_]/g, '').substring(0, 50)}`;
+                    } else if (currentSvgElement.tagName === 'ellipse' || currentSvgElement.tagName === 'circle') {
+                        const cx = currentSvgElement.getAttribute('cx');
+                        const cy = currentSvgElement.getAttribute('cy');
+                        const safeCx = cx ? cx.replace('.', '_') : '0';
+                        const safeCy = cy ? cy.replace('.', '_') : '0';
+                        generatedId = `${currentSvgElement.tagName}_${safeCx}_${safeCy}`;
+                    }
+                    let tempId = generatedId;
+                    let uniqueAttempt = 0;
+                    while(svgDoc.getElementById(tempId) && svgDoc.getElementById(tempId) !== currentSvgElement) {
+                        tempId = `${generatedId}_${uniqueAttempt++}`;
+                    }
+                    generatedId = tempId;
+                    /*console.log(`Generated ID: ${generatedId}`);*/
+                    
+                    currentSvgElement.id = generatedId;
+                }
+                idCounter++;
+            });
+            addSpanbellow(svgDoc, linksDataFigma); // Changed to pass svgDoc and linksDataFigma
+            /*console.log(`\n--- Resumo de Atribuição de Links ---`);*/
+            /*console.log(`Total de elementos interativos ("nós") encontrados no SVG: ${interactiveNodes.length}`);*/
+            /*console.log(`Total de links no linksDataFigma: ${linksDataFigma.length}`);*/
+        });
+
+    }
+
+    
+    function addSpanbellow(svgDoc, linksToAssign) {
+        // Objeto para armazenar o deslocamento vertical para cada elemento SVG,
+        // garantindo que links subsequentes para o mesmo elemento fiquem abaixo.
+        const verticalOffsetMap = new Map();
+        const horizontalOffsetMap = new Map(); // Para controlar o offset horizontal se houver vários links
+
+        linksToAssign.forEach(link => {
+            const targetElement = svgDoc.getElementById(link.path);
+            if (targetElement) {
+                const bbox = targetElement.getBBox();
+
+                // Obtenha o deslocamento vertical atual para este elemento
+                let currentVerticalOffset = verticalOffsetMap.get(targetElement.id) || 0;
+                let currentHorizontalOffset = horizontalOffsetMap.get(targetElement.id) || 0;
+
+                const foreignObject = svgDoc.createElementNS("http://www.w3.org/2000/svg", "foreignObject");
+
+                // Calculando a posição X: à esquerda do elemento + indentação de 2 espaços
+                // 'bbox.x' é a borda esquerda do elemento.
+                // Definimos uma indentação de 2 espaços (ex: 10 pixels).
+                const indentation = 10; // Ajuste este valor para a indentação desejada
+                const x = bbox.x + indentation + currentHorizontalOffset;
+
+                // Calculando a posição Y: abaixo do elemento + deslocamento vertical acumulado
+                // 'bbox.y + bbox.height' nos dá a borda inferior do elemento.
+                // Adicione o 'currentVerticalOffset' para empilhar os links.
+                const verticalSpacing = 5; // Espaçamento entre o elemento e o primeiro link, e entre links
+                const y = bbox.y + bbox.height + verticalSpacing + currentVerticalOffset;
+
+                // Definir uma largura e altura que acomodem o texto do link
+                const foWidth = 400; // Largura suficiente para o texto do link
+                const foHeight = 15; // Altura para cada linha de link
+
+                foreignObject.setAttribute('x', x);
+                foreignObject.setAttribute('y', y);
+                foreignObject.setAttribute('width', foWidth);
+                foreignObject.setAttribute('height', foHeight);
+                foreignObject.style.overflow = 'visible';
+
+                const divContainer = document.createElement('div');
+                divContainer.setAttribute('xmlns', 'http://www.w3.org/1999/xhtml');
+                divContainer.style.width = '100%';
+                divContainer.style.height = '100%';
+                divContainer.style.display = 'flex';
+                divContainer.style.alignItems = 'center'; // Centraliza verticalmente o texto dentro do fo
+                divContainer.style.justifyContent = 'flex-start'; // Alinha o texto à esquerda dentro do fo
+                // Remova o text-align: center do .link-span no CSS se estiver presente
+
+                const span = document.createElement('span');
+                span.textContent = link.label;
+                span.className = 'link-span';
+                span.addEventListener('click', () => {
+                    window.open(link.url, '_blank');
+                });
+
+                divContainer.appendChild(span);
+                foreignObject.appendChild(divContainer);
+
+                svgDoc.documentElement.appendChild(foreignObject);
+
+                // Atualize o deslocamento vertical para o próximo link deste elemento
+                // Some a altura do foreignObject (foHeight) mais uma pequena margem para o próximo link
+                verticalOffsetMap.set(targetElement.id, currentVerticalOffset + foHeight + verticalSpacing); 
+                // Se você quiser que links para o mesmo elemento se alinhem horizontalmente também, você precisaria de um mecanismo mais complexo
+                // para calcular a largura de cada link e ajustar o 'x' para cada um, ou simplesmente empilhá-los verticalmente como agora.
+
+                // Adiciona efeitos hover ao próprio elemento SVG
+                targetElement.classList.add('interactive-node');
+                targetElement.addEventListener('mouseenter', () => {
+                    targetElement.classList.add('interactive-node-hover');
+                });
+                targetElement.addEventListener('mouseleave', () => {
+                    targetElement.classList.remove('interactive-node-hover');
+                });
+
+            } else {
+                console.warn(`Elemento com ID "${link.path}" não encontrado no SVG para o link "${link.label}".`);
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => assignIdsAndLinksToSvgElements());
+</script>
 </body>
 </html>
