@@ -6,6 +6,9 @@
     <title>Minha Árvore de Competências Interativa</title>
     <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" type="image/svg+xml">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: #4f4f4f;
@@ -15,7 +18,7 @@
             min-height: 100vh;
             margin: 0;
             overflow: auto;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Roboto Light', 'Roboto', sans-serif; /* Tente 'Roboto Light' primeiro, depois 'Roboto', e depois qualquer sans-serif */
             color: #333;
         }
 
@@ -129,13 +132,13 @@
                     display: block; /* Garante que o span ocupe toda a largura disponível */
                     /*text-align: center;*/
                     /*margin-top: 5px; /* Espaçamento entre o SVG e o link */
-                    font-size: 17px;
-                    color: white;
-                    font-family: Inter;
+                    font-size: 14px;
+                    color: black;
+                    font-family: 'Roboto Light', 'Roboto', sans-serif; /* Tente 'Roboto Light' primeiro, depois 'Roboto', e depois qualquer sans-serif */
                     text-decoration: underline;
                 }
                 .link-span:hover {
-                    color: #0056b3;
+                    color: yellow;
                 }
             `;
             const svgRoot = svgDoc.documentElement;
