@@ -12,36 +12,42 @@
     <style>
         body {
             background-color: #4f4f4f;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            min-height: 100vh;
+            display: flex; /* Keep flexbox for initial centering if desired */
+            justify-content: center; /* Center horizontally */
+            align-items: flex-start; /* Align to the top vertically */
+            min-height: 100vh; /* Ensure body takes full viewport height */
             margin: 0;
-            overflow: auto;
-            font-family: 'Roboto Light', 'Roboto', sans-serif; /* Tente 'Roboto Light' primeiro, depois 'Roboto', e depois qualquer sans-serif */
+            overflow-y: auto; /* Allow body to scroll if content exceeds viewport */
+            overflow-x: hidden; /* Prevent horizontal scrolling on the body */
+            font-family: 'Roboto Light', 'Roboto', sans-serif;
             color: #333;
         }
 
         object {
-            width: 100%;
-            height: auto;
-            max-width: 100%;
-            max-height: 1200px;
+            width: 100%; /* Occupy full width of its container */
+            height: auto; /* Allow height to adjust based on content */
+            max-width: 100%; /* Ensure it doesn't exceed parent's width */
+            /* Remove max-height to allow it to expand freely */
             display: block;
             margin: 0 auto;
             border: 1px solid rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-            overflow-y: auto;
-            overflow-x: hidden;           
+            /* The SVG itself should handle internal scrolling if its content is larger than its intrinsic size */
+            /* We'll rely on the body's overflow-y for overall page scrolling */
+            overflow-y: visible; /* Let the content determine height, and the body scroll if needed */
+            overflow-x: hidden;
             padding: 20px;
             box-sizing: border-box;
         }
-       
+
         @media (max-width: 768px) {
             object {
-                width: auto;
-                height: 95vh;
+                width: 100%; /* On smaller screens, take full width */
+                height: auto; /* Auto height to allow content to dictate its size */
+                /* You might want to remove the fixed height for mobile if you want it to scroll */
+                /* Forcing 95vh here might still be an issue if the SVG content is taller */
+                /* height: 95vh; */ /* Consider removing or adjusting this for full scrollability */
             }
             body {
                 align-items: flex-start;
