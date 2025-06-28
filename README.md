@@ -29,7 +29,7 @@ Meus projetos refletem experiência prática e conhecimento aprofundado nas segu
 -   **Python**: Scripts e aplicações práticas que mostram a versatilidade e o poder de Python para resolver problemas complexos e desenvolver soluções eficientes (ex: `turnover`, `yt-transcribe-ai`).
 -   **Docker**: Configuração e gerenciamento de ambientes de desenvolvimento e produção com Docker, garantindo uma integração contínua e implantação eficiente (`development_environment`).
 -   **PHP**: Desenvolvimento web com PHP, demonstrando minha capacidade de criar soluções backend robustas e escaláveis.
--   **Java**: Projetos como `bank_system` que evidenciam habilidades em programação orientada a objetos, APIs e persistência de dados com JPA.
+-   **Java**: Projetos como `gmcatalog-rest` que evidenciam habilidades em programação orientada a objetos, APIs e persistência de dados com JPA.
 -   **Arduino & IoT**: Inovações e projetos de hardware com Arduino, mostrando minhas habilidades em eletrônica e desenvolvimento de sistemas embarcados (`Arduino`, `ESP01WakeUp`, `usb-midi-controller`).
 -   **Ciência de Dados & IA**: Aplicação de Machine Learning e processamento de linguagem natural com foco em automação e análise de dados (ex: `yt-transcribe-ai` com Whisper e Gemini API, `turnover` para análise preditiva).
 
