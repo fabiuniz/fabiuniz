@@ -55,36 +55,66 @@
             }
         }
         .base-button {
-            position: absolute; /* Já que ambos serão absolutos */
+            position: absolute; /* Mantenha absoluto se necessário para o posicionamento sobre o SVG */
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 7px;
+            padding: 0.5rem; /* Ajustado de 7px para rem (aprox. 8px com font-size padrão de 16px) */
             text-align: center;
             outline: none;
             text-decoration: none !important;
             color: #ffffff !important;
-            width: 150px;
-            height: 15px;
-            border-radius: 16px;
+            width: 20rem; /* Ajustado de 350px para rem. 20rem = 320px com font-size padrão de 16px */
+            height: 3rem; /* Ajustado de 115px para rem. 3rem = 48px com font-size padrão de 16px */
+            border-radius: 1rem; /* Ajustado de 16px para rem */
             font-family: "SF Pro Text", Helvetica, sans-serif;
-            left: 30px;
-            top: 30px; /* Posição específica do LinkedIn */
+            font-size: 2.5rem;  /* Defina um tamanho de fonte base em rem */
+            left: 2vw; /* Use vw para posicionamento horizontal relativo à largura da viewport */
+            top: 2vw; /* Use vw para posicionamento vertical relativo à largura da viewport */
         }
-
+        
         /* Estilos específicos para o LinkedIn */
         .libuttonlinkedin {
-            left: 38px;
-            width: 135px;
-            background-color: #0A66C2; /* Cor do LinkedIn */
+            left: 2.5vw; /* Ajuste conforme necessário com vw */
+            width: 20rem; /* Ajuste para rem */
+            background-color: #0A66C2;
         }
-
+        
         /* Estilos específicos para o GitHub */
         .libuttongithub {
-            background-color: #333; /* Cor do GitHub */
-            top: calc(18px + 32px + 10px); /* 100px (top do linkedin) + 32px (height do linkedin) + 10px (espaço entre eles) */
-        }       
-
+            left: 2.5vw; /* Ajuste conforme necessário com vw */
+            width: 20rem; /* Ajuste para rem */
+            background-color: #333;
+            /* Recalcule o top usando unidades relativas */
+            /* top do base-button (2vw) + height do base-button (3rem) + um espaçamento (ex: 0.8rem) */
+            top: calc(2vw + 3rem + 0.8rem);
+        }
+        
+        /* Para o ícone do GitHub, certifique-se que ele é responsivo */
+        .libuttongithub img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse a largura do botão */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+        
+        /* --- Media Query para Telas Menores (Mobile) --- */
+        @media (max-width: 768px) {
+            .base-button {
+                width: 15rem; /* Reduz o tamanho do botão para mobile */
+                height: 2.5rem;
+                padding: 0.4rem;
+                font-size: 0.9rem; /* Diminui a fonte para mobile */
+                left: 3vw; /* Ajusta a posição para mobile */
+                top: 3vw;
+            }        
+            .libuttonlinkedin {
+                left: 4vw;
+                width: 14rem;
+            }
+        
+            .libuttongithub {
+                /* Adapte o cálculo para os novos valores de mobile */
+                top: calc(3vw + 2.5rem + 0.5rem); /* Novo top para mobile */
+            }
         }
     </style>
 </head>
@@ -322,7 +352,7 @@
 
     document.addEventListener('DOMContentLoaded', () => assignIdsAndLinksToSvgElements());
 </script>
-<a class="base-button libuttonlinkedin" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=fabiano-rocha-de-almeida-dev" target="_blank">Follow on LinkedIn</a>
+<a class="base-button libuttonlinkedin" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=fabiano-rocha-de-almeida-dev" target="_blank">LinkedIn</a>
 <a class="base-button libuttongithub" href="https://github.com/fabiuniz" target="_blank">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/fabiuniz?style=social">
 </a>
