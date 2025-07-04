@@ -96,24 +96,23 @@
             height: auto; /* Mantém a proporção da imagem */
         }
         
-        /* --- Media Query para Telas Menores (Mobile) --- */
         @media (max-width: 768px) {
             .base-button {
-                width: 15rem; /* Reduz o tamanho do botão para mobile */
-                height: 2.5rem;
-                padding: 0.4rem;
-                font-size: 0.9rem; /* Diminui a fonte para mobile */
-                left: 3vw; /* Ajusta a posição para mobile */
-                top: 3vw;
-            }        
+                width: 4rem; /* 8rem / 2 */
+                height: 0.9rem; /* 1.8rem / 2 */
+                padding: 0.1rem; /* 0.2rem / 2 */
+                font-size: 0.35rem; /* 0.7rem / 2 */
+                left: 0.75vw; /* 1.5vw / 2 */
+                top: 0.75vw; /* 1.5vw / 2 */
+            }
+        
             .libuttonlinkedin {
-                left: 4vw;
-                width: 14rem;
+                left: 1vw; /* 2vw / 2 */
+                width: 3.5rem; /* 7rem / 2 */
             }
         
             .libuttongithub {
-                /* Adapte o cálculo para os novos valores de mobile */
-                top: calc(3vw + 2.5rem + 0.5rem); /* Novo top para mobile */
+                top: calc(0.75vw + 0.9rem + 0.15rem); /* (1.5vw + 1.8rem + 0.3rem) / 2 */
             }
         }
     </style>
