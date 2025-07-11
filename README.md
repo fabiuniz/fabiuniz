@@ -19,7 +19,10 @@ Para uma visão clara das minhas habilidades atuais, projetos realizados e aspir
 
 ![Minha Árvore de Competências](arvore_projetos.svg)
 
-**👉 Para explorar a árvore de competências interativa (com links clicáveis), [clique aqui para abrir em uma nova aba](https://fabiuniz.github.io/fabiuniz/tree.html).**
+<p>
+    👉 Para explorar a árvore de competências interativa (com links clicáveis),
+    <a href="https://fabiuniz.github.io/fabiuniz/tree.html" target="_blank">clique aqui para abrir em uma nova aba</a>.
+</p>
 
 
 ## Áreas de Experiência e Destaques
