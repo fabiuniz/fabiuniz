@@ -151,7 +151,7 @@
 
     <script>
         // Use const para valores que não mudam
-        const hook_figma = {
+        const hookfigma = {
             hook0: "path_00000000000000000000000000000000000000000000000000", // vazio
             hook1: "path_M158097334742H15795L158377323105H158522L1589533474", // DadosIA --> analise de dados
             hook2: "path_M15805531005H158218L158613540664H158627L1590225310", // DadosIA --> machine elairne
@@ -173,33 +173,34 @@
             hook18: "path_M11286414149H112723C112715141449112714141411267914", // DevOps   --> ci/cd"
             hook19: "path_M112864162168H112723C11271516212711271620921126791" // DevOps   --> nuvem
         };
-        const github_url = "https://github.com/fabiuniz";
+        const github = "https://github.com/fabiuniz";
 
-        // Mapeamento direto de links para hooks, usando o hook_figma para referências.
+        // Mapeamento direto de links para hooks, usando o hookfigma para referências.
         // Isso evita repetições e melhora a legibilidade.
         const linksDataFigma = [
-            { hook: "DadosIA", path: hook_figma.hook2, label: "📈 Análise Turnover (Python, ML)", url: github_url + "/turnover", description: "Previsão de Turnover de Funcionários com FastAPI e TensorFlow" },
-            { hook: "DadosIA", path: hook_figma.hook2, label: "🔗 Dashboard Empresarial - Projeto Power BI", url: github_url + "/py_powerbi", description: "Dashboard Geral da Empresa utilizando Python, Dash e Plotly, com integração via Docker" },
-            { hook: "DadosIA", path: hook_figma.hook2, label: "📈 Análise Turnover (ML, Previsão)", url: github_url + "/turnover", description: "Previsão de Turnover de Funcionários com FastAPI e TensorFlow" },
-            { hook: "DadosIA", path: hook_figma.hook1, label: "🧠 Ferramenta IA p/ Vídeos (Whisper, Gemini API)", url: github_url + "/yt-transcribe-ai", description: "Projeto para transcrever vídeos do YouTube e realizar análise de sentimento usando FastAPI e IA." },
-            { hook: "DadosIA", path: hook_figma.hook3, label: "🧠 Ferramenta IA p/ Vídeos (Fluxos Automatizados)", url: github_url + "/yt-transcribe-ai", description: "Projeto para transcrever vídeos do YouTube e realizar análise de sentimento usando FastAPI e IA." },
-            { hook: "IoT", path: hook_figma.hook4, label: "🎹 MIDI Controller (USB)", url: github_url + "/Midi_Arduino", description: "Projeto de um controlador MIDI baseado em Arduino." },
-            { hook: "IoT", path: hook_figma.hook5, label: "🎹 MIDI Controller (USB)", url: github_url + "/Midi_Arduino", description: "Projeto de um controlador MIDI baseado em Arduino." },
-            { hook: "DevOps", path: hook_figma.hook6, label: "🐳 Amb. Dev Docker Genérico", url: github_url + "/script_docker", description: "Configuração de ambiente de desenvolvimento utilizando Docker Compose." },
-            { hook: "Dev", path: hook_figma.hook8, label: "🎮 Jogo JS (JavaScript)", url: github_url + "/game_javascript", description: "Projeto de jogo baseado em JavaScript." },
-            { hook: "Fund", path: hook_figma.hook10, label: "Flutter Mobile", url: github_url + "/apptast", description: "TechTaste - Aplicativo de Restaurantes" },
-            { hook: "Fund", path: hook_figma.hook10, label: "🐳 Python (Amb. Dev Docker)", url: github_url + "/script_docker", description: "Extrutura base para aplicação python" },
-            { hook: "Fund", path: hook_figma.hook12, label: "📚 Reengenharia de Funções", url: github_url + "/appdla", description: "Desafio 21 Dias de Código Fonte TV" },
-            { hook: "Fund", path: hook_figma.hook12, label: "🌊 Gerenciamento de Estudos", url: github_url + "/StudyFlow", description: "Seu Assistente de Estudos Tecnológicos" },
-            { hook: "Skils", path: hook_figma.hook13, label: "💼 PHP (Portfólio Geral)", url: github_url, description: "Portifolio" },
-            { hook: "Dev", path: hook_figma.hook16, label: "📱 App Tast mobile (Android).", url: github_url + "/apptast", description: "Projeto ou curso da Alura relacionado a desenvolvimento mobile, provavelmente Android." },
-            { hook: "DadosIA", path: hook_figma.hook3, label: "🎯 Extraindo legenda do youTube", url: github_url + "/youtube-transcript", description: "Extraindo legenda do youTube usando pynthon" },
-            { hook: "DevOps", path: hook_figma.hook18, label: "📚 Sistema de Gestão Escolar", url: github_url + "/gestaoedu", description: "A aplicação possui uma API backend construída com **FastAPI** e um frontend interativo desenvolvido com **React** e **Tailwind CSS**. O banco de dados é gerenciado por **SQLAlchemy** com SQLite, e a aplicação é containerizada utilizando **Docker**. Este projeto foi desenvolvido como parte da **Imersão DevOps da Alura**." },
-            { hook: "Monolíto", path: hook_figma.hook14, label: "📚 Sistema de Gestão Escolar", url: github_url + "/gestaoedu", description: "A aplicação possui uma API backend construída com **FastAPI** e um frontend interativo desenvolvido com **React** e **Tailwind CSS**. O banco de dados é gerenciado por **SQLAlchemy** com SQLite, e a aplicação é containerizada utilizando **Docker**. Este projeto foi desenvolvido como parte da **Imersão DevOps da Alura**." },
-            { hook: "Dev", path: hook_figma.hook7, label: "📦 PostgreSQL, JPA (em projetos Java)", url: github_url + "/gmcatalog-rest", description: "Projeto Java Spring" },
-            { hook: "Fund", path: hook_figma.hook9, label: "📦 APIs e Integrações (gmcatalog-rest)", url: github_url + "/gmcatalog-rest", description: "Projeto Java Spring" },
-            { hook: "Dev", path: hook_figma.hook11, label: "📦 PostgreSQL, JPA (em projetos Java)", url: github_url + "/gmcatalog-rest", description: "Projeto Java Spring" },
-            { hook: "Monolíto", path: hook_figma.hook14, label: "📦 PostgreSQL, JPA e API RESTful em Java Spring.", url: github_url + "/gmcatalog-rest", description: "Projeto gmcatalog com API RESTful, desenvolvido em Java Spring." },            
+            { hook: "DadosIA", path: hookfigma.hook2, label: "📈 Análise Turnover (Python, ML)", url: github + "/turnover", description: "Previsão de Turnover de Funcionários com FastAPI e TensorFlow" },
+            { hook: "DadosIA", path: hookfigma.hook2, label: "🔗 Dashboard Empresarial - Projeto Power BI", url: github + "/py_powerbi", description: "Dashboard Geral da Empresa utilizando Python, Dash e Plotly, com integração via Docker" },
+            { hook: "DadosIA", path: hookfigma.hook2, label: "📈 Análise Turnover (ML, Previsão)", url: github + "/turnover", description: "Previsão de Turnover de Funcionários com FastAPI e TensorFlow" },
+            { hook: "DadosIA", path: hookfigma.hook1, label: "🧠 Ferramenta IA p/ Vídeos (Whisper, Gemini API)", url: github + "/yt-transcribe-ai", description: "Projeto para transcrever vídeos do YouTube e realizar análise de sentimento usando FastAPI e IA." },
+            { hook: "DadosIA", path: hookfigma.hook3, label: "🧠 Ferramenta IA p/ Vídeos (Fluxos Automatizados)", url: github + "/yt-transcribe-ai", description: "Projeto para transcrever vídeos do YouTube e realizar análise de sentimento usando FastAPI e IA." },
+            { hook: "IoT", path: hookfigma.hook4, label: "🎹 MIDI Controller (USB)", url: github + "/Midi_Arduino", description: "Projeto de um controlador MIDI baseado em Arduino." },
+            { hook: "IoT", path: hookfigma.hook5, label: "🎹 MIDI Controller (USB)", url: github + "/Midi_Arduino", description: "Projeto de um controlador MIDI baseado em Arduino." },
+            { hook: "DevOps", path: hookfigma.hook6, label: "🐳 Amb. Dev Docker Genérico", url: github + "/script_docker", description: "Configuração de ambiente de desenvolvimento utilizando Docker Compose." },
+            { hook: "Dev", path: hookfigma.hook8, label: "🎮 Jogo JS (JavaScript)", url: github + "/game_javascript", description: "Projeto de jogo baseado em JavaScript." },
+            { hook: "Fund", path: hookfigma.hook10, label: "Flutter Mobile", url: github + "/apptast", description: "TechTaste - Aplicativo de Restaurantes" },
+            { hook: "Fund", path: hookfigma.hook10, label: "🐳 Python (Amb. Dev Docker)", url: github + "/script_docker", description: "Extrutura base para aplicação python" },
+            { hook: "Fund", path: hookfigma.hook12, label: "📚 Reengenharia de Funções", url: github + "/appdla", description: "Desafio 21 Dias de Código Fonte TV" },
+            { hook: "Fund", path: hookfigma.hook12, label: "🌊 Gerenciamento de Estudos", url: github + "/StudyFlow", description: "Seu Assistente de Estudos Tecnológicos" },
+            { hook: "Skils", path: hookfigma.hook13, label: "💼 PHP (Portfólio Geral)", url: github, description: "Portifolio" },
+            { hook: "Dev", path: hookfigma.hook16, label: "📱 App Tast mobile (Android).", url: github + "/apptast", description: "Projeto ou curso da Alura relacionado a desenvolvimento mobile, provavelmente Android." },
+            { hook: "DadosIA", path: hookfigma.hook3, label: "🎯 Extraindo legenda do youTube", url: github + "/youtube-transcript", description: "Extraindo legenda do youTube usando pynthon" },
+            { hook: "DevOps", path: hookfigma.hook18, label: "📚 Sistema de Gestão Escolar", url: github + "/gestaoedu", description: "A aplicação possui uma API backend construída com **FastAPI** e um frontend interativo desenvolvido com **React** e **Tailwind CSS**. O banco de dados é gerenciado por **SQLAlchemy** com SQLite, e a aplicação é containerizada utilizando **Docker**. Este projeto foi desenvolvido como parte da **Imersão DevOps da Alura**." },
+            { hook: "Monolíto", path: hookfigma.hook14, label: "📚 Sistema de Gestão Escolar", url: github + "/gestaoedu", description: "A aplicação possui uma API backend construída com **FastAPI** e um frontend interativo desenvolvido com **React** e **Tailwind CSS**. O banco de dados é gerenciado por **SQLAlchemy** com SQLite, e a aplicação é containerizada utilizando **Docker**. Este projeto foi desenvolvido como parte da **Imersão DevOps da Alura**." },
+            { hook: "Dev", path: hookfigma.hook7, label: "📦 PostgreSQL, JPA (em projetos Java)", url: github + "/gmcatalog-rest", description: "Projeto Java Spring" },
+            { hook: "Fund", path: hookfigma.hook9, label: "📦 APIs e Integrações (gmcatalog-rest)", url: github + "/gmcatalog-rest", description: "Projeto Java Spring" },
+            { hook: "Dev", path: hookfigma.hook11, label: "📦 PostgreSQL, JPA (em projetos Java)", url: github + "/gmcatalog-rest", description: "Projeto Java Spring" },
+            { hook: "Monolíto", path: hookfigma.hook14, label: "📦 PostgreSQL, JPA e API RESTful em Java Spring.", url: github + "/gmcatalog-rest", description: "Projeto gmcatalog com API RESTful, desenvolvido em Java Spring." },            
+            { hook: "DevOps", path: hookfigma.hook18, label: "⚙️ GCP/Heroku Docker - GitHub Actions.", url: github+"/cicd", description: "Aplicação Flask Dockerizada com CI/CD Automatizado" }
         ];
 
         /**
