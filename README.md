@@ -21,7 +21,7 @@ Para uma visão clara das minhas habilidades atuais, projetos realizados e aspir
 
 <p>
     👉 Para explorar a árvore de competências interativa (com links clicáveis),
-    <a href="https://fabiuniz.github.io/fabiuniz/tree.html" target="_blank">clique aqui para abrir</a>.
+    <a href="/tree.html" target="_blank">clique aqui para abrir</a>.
 </p>
 
 
