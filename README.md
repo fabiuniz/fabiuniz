@@ -53,29 +53,215 @@ Estou constantemente atualizando meu portfólio. Nos próximos dias/semaniras, v
 
 ## Repositórios em Destaque e Habilidades Técnicas
 
-Acesse todos os meus repositórios para mais detalhes: [Fabiano's GitHub Repositories](https://github.com/fabiuniz?tab=repositories)
+Aqui estão algumas das tecnologias e linguagens que estou aprendendo ou já domino:
 
 <h3 align="left">Linguagens e Ferramentas:</h3>
-<p align="left">
-	<a href="https://developer.android.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/></a>
-	<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
-	<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
-	<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
-	<a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
-	<a href="https://mariadb.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/></a>
-	<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/></a>
-	<a href="https://www.nginx.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/></a>
-	<a href="https://www.php.net" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/></a>
-	<a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
-	<a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/></a>
-  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/></a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
-  <a href="https://www.java.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" alt="java logo" width="40" height="40" /></a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" alt="docker logo" width="40" height="40" /></a>
-  <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="nodejs" width="40" height="40"/></a>
-  <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="postgresql" width="40" height="40"/></a>  
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-plain.svg" alt="pandas" width="40" height="40"/></a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <a href="https://angular.io/">
+        <img src="https://skillicons.dev/icons?i=angular" width="48" height="48" alt="Angular" />
+      </a>
+      <br>Angular
+    </td>
+    <td align="center" width="96">
+      <a href="https://developer.android.com">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" width="48" height="48" alt="Android" />
+      </a>
+      <br>Android
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.arduino.cc/">
+        <img src="https://skillicons.dev/icons?i=arduino" width="48" height="48" alt="Arduino" />
+      </a>
+      <br>Arduino
+    </td>
+    <td align="center" width="96">
+      <a href="https://azure.microsoft.com/">
+        <img src="https://skillicons.dev/icons?i=azure" width="48" height="48" alt="Azure" />
+      </a>
+      <br>Azure
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.w3schools.com/css/">
+        <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3" />
+      </a>
+      <br>CSS3
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.djangoproject.com/">
+        <img src="https://skillicons.dev/icons?i=django" width="48" height="48" alt="Django" />
+      </a>
+      <br>Django
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="https://www.docker.com/">
+        <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+      </a>
+      <br>Docker
+    </td>
+    <td align="center" width="96">
+      <a href="https://fastapi.tiangolo.com/">
+        <img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI" />
+      </a>
+      <br>FastAPI
+    </td>
+    <td align="center" width="96">
+      <a href="https://flask.palletsprojects.com/">
+        <img src="https://skillicons.dev/icons?i=flask" width="48" height="48" alt="Flask" />
+      </a>
+      <br>Flask
+    </td>
+    <td align="center" width="96">
+      <a href="https://cloud.google.com/">
+        <img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="GCP" />
+      </a>
+      <br>GCP
+    </td>
+    <td align="center" width="96">
+      <a href="https://git-scm.com/">
+        <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+      </a>
+      <br>Git
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.w3.org/html/">
+        <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
+      </a>
+      <br>HTML5
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="https://www.heroku.com/">
+        <img src="https://skillicons.dev/icons?i=heroku" width="48" height="48" alt="Heroku" />
+      </a>
+      <br>Heroku
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.java.com/">
+        <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
+      </a>
+      <br>Java
+    </td>
+    <td align="center" width="96">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+        <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
+      </a>
+      <br>JavaScript
+    </td>
+    <td align="center" width="96">
+      <a href="https://laravel.com/">
+        <img src="https://skillicons.dev/icons?i=laravel" width="48" height="48" alt="Laravel" />
+      </a>
+      <br>Laravel
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.linux.org/">
+        <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+      </a>
+      <br>Linux
+    </td>
+    <td align="center" width="96">
+      <a href="https://mariadb.org/">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original-wordmark.svg" width="48" height="48" alt="MariaDB" />
+      </a>
+      <br>MariaDB
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="https://www.mysql.com/">
+        <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
+      </a>
+      <br>MySQL
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.nginx.com">
+        <img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx" />
+      </a>
+      <br>Nginx
+    </td>
+    <td align="center" width="96">
+      <a href="https://nodejs.org/">
+        <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+      </a>
+      <br>Node.js
+    </td>
+    <td align="center" width="96">
+      <a href="https://pandas.pydata.org/">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-plain.svg" width="48" height="48" alt="Pandas" />
+      </a>
+      <br>Pandas
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.php.net">
+        <img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP" />
+      </a>
+      <br>PHP
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.postgresql.org/">
+        <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" />
+      </a>
+      <br>PostgreSQL
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="https://www.python.org">
+        <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+      </a>
+      <br>Python
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.r-project.org/">
+        <img src="https://skillicons.dev/icons?i=r" width="48" height="48" alt="R" />
+      </a>
+      <br>R
+    </td>
+    <td align="center" width="96">
+      <a href="https://rubyonrails.org/">
+        <img src="https://skillicons.dev/icons?i=rails" width="48" height="48" alt="Rails" />
+      </a>
+      <br>Rails
+    </td>
+    <td align="center" width="96">
+      <a href="https://react.dev/">
+        <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+      </a>
+      <br>React
+    </td>
+    <td align="center" width="96">
+      <a href="https://spring.io/">
+        <img src="https://skillicons.dev/icons?i=spring" width="48" height="48" alt="Spring" />
+      </a>
+      <br>Spring
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.sqlite.org/index.html">
+        <img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" alt="SQLite" />
+      </a>
+      <br>SQLite
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="https://tailwindcss.com/">
+        <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
+      </a>
+      <br>Tailwind CSS
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.tensorflow.org/">
+        <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
+      </a>
+      <br>TensorFlow
+    </td>
+  </tr>
+</table>
 
 ---
 
