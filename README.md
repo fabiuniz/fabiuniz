@@ -284,7 +284,7 @@ Estou aberto a novas oportunidades e desafios. Se você está interessado em dis
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fabiuniz&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=20&theme=dracula&hide_border=false" height="150" alt="languages graph" />
   <br clear="both">
   <img src="https://raw.githubusercontent.com/fabiuniz/fabiuniz/main/snake.svg" alt="Snake animation" />
-  <img src="https://profile-counter.glitch.me/fabiuniz/count.svg?" />
+  <img src="https://komarev.com/ghpvc/?username=fabiuniz" />
 </div>
 
 ---
