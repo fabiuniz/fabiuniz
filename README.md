@@ -286,7 +286,7 @@ Estou aberto a novas oportunidades e desafios. Se você está interessado em dis
 <br clear="both">
 <img src="https://raw.githubusercontent.com/fabiuniz/fabiuniz/main/snake.svg" alt="Snake animation" />
 <div align="center">
-  <img src="https://profile-counter.glitch.me/fabiuniz/count.svg?" />
+  <img src="https://raw.githubusercontent.com/fabiuniz/fabiuniz/main/count.svg?" />
 </div>
 
 ---
