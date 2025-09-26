@@ -1,6 +1,6 @@
 <!-- 
   Tags: Skils
-  Label: 💼 Portfólio geral.
+  Label: 🕵️‍♂️ Portfólio geral.
   Description:⭐ Portfólio.
   technical_requirement: Python, Docker, PHP, Java, Arduino, IoT, Machine Learning, NLP, Git, GitHub, HTML, CSS, JavaScript, MySQL, PostgreSQL, APIs (Gemini, Whisper), DevOps, CI/CD, Cloud Computing, IaC, SRE, GitHub Actions, Linux, SQL, JPA
   path_hook: hookfigma.hook13
