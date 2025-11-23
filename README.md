@@ -18,11 +18,11 @@ Este espaço é uma amostra do meu trabalho e das minhas habilidades em tecnolog
 
 Para uma visão clara das minhas habilidades atuais, projetos realizados e aspirações de carreira, explore minha árvore de competências interativa. Ela detalha minhas bases em tecnologia, **Fundamentos de Programação, Desenvolvimento Web, Hardware e IoT, Ciência de Dados, DevOps e Nuvem, Segurança da Informação**, além das minhas **Habilidades Transversais**.
 
-![Minha Árvore de Competências](arvore_projetos.svg)
+![Minha Árvore de Competências](https://fabiuniz.github.io/portfolio/img/arvore_projetos.svg)
 
 <p>
     👉 Para explorar a árvore de competências interativa (com links clicáveis),
-    <a href="https://fabiuniz.github.io/fabiuniz/tree.html" target="_blank">clique aqui para abrir</a>.
+    <a href="https://fabiuniz.github.io/portfolio/tree.html" target="_blank">clique aqui para abrir</a>.
 </p>
 
 
