@@ -1,7 +1,7 @@
 <!-- 
   Tags: Skils
   Label: 🕵️‍♂️ Portfólio geral.
-  Description:⭐ Portfólio.
+  Description:🌍 Portfólio.
   technical_requirement: Python, Docker, PHP, Java, Arduino, IoT, Machine Learning, NLP, Git, GitHub, HTML, CSS, JavaScript, MySQL, PostgreSQL, APIs (Gemini, Whisper), DevOps, CI/CD, Cloud Computing, IaC, SRE, GitHub Actions, Linux, SQL, JPA
   path_hook: hookfigma.hook13
 -->
@@ -14,7 +14,7 @@ Bem-vindo(a) ao meu portfólio no GitHub!
 
 Este espaço é uma amostra do meu trabalho e das minhas habilidades em tecnologias inovadoras. Estou sempre em busca de novos desafios e oportunidades para aplicar e expandir meu conhecimento.
 
-## 🌳 Minha Árvore de Competências Tech
+## 🌳 Minha Trilha de Conhecimento
 
 Para uma visão clara das minhas habilidades atuais, projetos realizados e aspirações de carreira, explore minha árvore de competências interativa. Ela detalha minhas bases em tecnologia, **Fundamentos de Programação, Desenvolvimento Web, Hardware e IoT, Ciência de Dados, DevOps e Nuvem, Segurança da Informação**, além das minhas **Habilidades Transversais**.
 
@@ -237,32 +237,64 @@ Aqui estão algumas das tecnologias e linguagens que estou aprendendo ou já dom
       <br>React
     </td>
     <td align="center" width="96">
-      <a href="https://spring.io/">
-        <img src="https://skillicons.dev/icons?i=spring" width="48" height="48" alt="Spring" />
-      </a>
-      <br>Spring
-    </td>
-    <td align="center" width="96">
       <a href="https://www.sqlite.org/index.html">
         <img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" alt="SQLite" />
       </a>
       <br>SQLite
     </td>
-  </tr>
-  <tr>
     <td align="center" width="96">
       <a href="https://tailwindcss.com/">
         <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
       </a>
       <br>Tailwind CSS
     </td>
+  </tr>
+  <tr>
     <td align="center" width="96">
       <a href="https://www.tensorflow.org/">
         <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
       </a>
       <br>TensorFlow
-    </td>
-  </tr>
+    </td>  
+  <td align="center" width="96">
+    <a href="https://spring.io/projects/spring-boot">
+      <img src="https://skillicons.dev/icons?i=spring" width="48" height="48" alt="Spring Boot" />
+    </a>
+    <br>Spring Boot
+  </td>
+  <td align="center" width="96">
+    <a href="https://www.postman.com/">
+      <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
+    </a>
+    <br>Postman
+  </td>
+  <td align="center" width="96">
+    <a href="https://redis.io/">
+      <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
+    </a>
+    <br>Redis
+  </td>
+  <td align="center" width="96">
+    <a href="https://github.com/features/actions">
+      <img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="GH Actions" />
+    </a>
+    <br>CI/CD
+  </td>
+  <td align="center" width="96">
+    <a href="https://www.jetbrains.com/idea/">
+      <img src="https://skillicons.dev/icons?i=idea" width="48" height="48" alt="IntelliJ" />
+    </a>
+    <br>IntelliJ
+  </td>
+</tr>
+<tr>
+  <td align="center" width="96">
+    <a href="https://ai.google.dev/">
+      <img src="https://skillicons.dev/icons?i=workers" width="48" height="48" alt="GenAI" />
+    </a>
+    <br>Gemini/AI
+  </td>
+</tr>
 </table>
 
 ---
