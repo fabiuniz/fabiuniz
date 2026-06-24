@@ -376,16 +376,17 @@ Estou aberto a novas oportunidades e desafios. Se você está interessado em dis
 
 ---
 
-## 📊 Estatísticas do GitHub
+## 📊 Métricas & Atividade no GitHub
 
 <div align="center">
-  <!--<img src="https://github-readme-streak-stats.herokuapp.com/?user=fabiuniz&theme=dracula&locale=pt-br&hide_border=false" height="150" alt="fabiuniz" />-->
-  <img src="https://github-readme-stats.vercel.app/api?username=fabiuniz&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=pt-br&hide_border=false" height="400" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fabiuniz&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=20&theme=dracula&hide_border=false" height="400" alt="languages graph" />
-  <br clear="both">
-  <img src="https://raw.githubusercontent.com/fabiuniz/fabiuniz/main/snake.svg" alt="Snake animation" />
-  <br clear="both">
-  <img src="https://komarev.com/ghpvc/?username=fabiuniz" />
+  <img src="https://github-readme-stats.vercel.app/api?username=fabiuniz&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=pt-br&hide_border=false" height="195" alt="Status Geral de Fabiano" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=fabiuniz&theme=dracula&locale=pt-br&hide_border=false" height="195" alt="Sequência de Código de Fabiano" />
+    <br><br>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fabiuniz&locale=pt-br&layout=compact&card_width=420&langs_count=8&theme=dracula&hide_border=false" height="165" alt="Linguagens mais usadas" />
+  <br><br>  
+  <img src="https://raw.githubusercontent.com/fabiuniz/fabiuniz/main/snake.svg" alt="Animação da Serpente" width="100%" />
+    <br>  
+  <img src="https://komarev.com/ghpvc/?username=fabiuniz&label=Visitas%20ao%20Perfil&color=0e75b6&style=flat-square" alt="Contador de Visitas" />
 </div>
 
 ---
